@@ -1,0 +1,37 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "MeetupPkg",
+            "versionName": "Meetup vol 1.0",
+            "versionNumber": "1.4.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "MeetupPkgParent@1.1.0-1"
+                }
+            ]
+        },
+        {
+            "path": "force-app-parent",
+            "package": "MeetupPkgParent",
+            "versionName": "Meetup vol Parent",
+            "versionNumber": "1.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "46.0",
+    "packageAliases": {
+        "MeetupPkg": "0Ho1n000000k9bwCAA",
+        "MeetupPkg@1.0.0-1": "04t1n0000021k6BAAQ",
+        "MeetupPkg@1.0.0-2": "04t1n0000021k6GAAQ",
+        "MeetupPkg@1.1.0-1": "04t1n0000021k6LAAQ",
+        "MeetupPkg@1.2.0-1": "04t1n0000021k6VAAQ",
+        "MeetupPkg@1.3.0-1": "04t1n0000021k6pAAA",
+        "MeetupPkgParent": "0Ho1n000000TN3GCAW",
+        "MeetupPkgParent@1.1.0-1": "04t1n000001YV9AAAW",
+        "MeetupPkg@1.4.0-1": "04t1n000001YV9KAAW"
+    }
+}
